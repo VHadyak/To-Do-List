@@ -422,6 +422,7 @@ button.deleteProject {
   color: var(--font-color);
   background-color: transparent;
   transition: transform 0.4s ease;
+  font-size: 1rem;
 }
 
 /* PROJECT FORM/MODAL */
@@ -556,10 +557,11 @@ label[for="projectName"] {
   height: 50px;
   gap: 50px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease;
 }
 
 .task:hover {
-  outline: 1.2px solid black;
+  transform: scale(1.02);
 }
 
 .task:last-of-type {
@@ -717,6 +719,7 @@ button.deleteTask {
   background-color: transparent;
   transition: transform 0.4s ease;
   font-family: var(--font-family);
+  font-size: 1rem;
 }
 
 button.editTask:hover,
